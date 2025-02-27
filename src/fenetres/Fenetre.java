@@ -19,7 +19,7 @@ public Fenetre(Dimension dimension, Color color) {
 	getContentPane().setBackground(color);
 	//Définir la disposition
 	getContentPane().setLayout(new BorderLayout());
-	// Create panels
+	
     JPanel nord = new JPanel();
     nord.setBackground(Color.blue);
     nord.setPreferredSize(new Dimension(dimension.width, 50)); // Fixed height
