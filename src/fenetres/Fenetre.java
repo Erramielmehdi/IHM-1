@@ -17,7 +17,7 @@ public Fenetre(Dimension dimension, Color color) {
 	setLocationRelativeTo(null);//Centrer la fenêtre
 	setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	getContentPane().setBackground(color);
-	//Définir la disposition
+	//Définir la dispositionhhh
 	getContentPane().setLayout(new BorderLayout());
 	
     JPanel nord = new JPanel();
